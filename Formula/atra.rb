@@ -1,26 +1,26 @@
 class Atra < Formula
   desc "A fast, modern HTTP client CLI with load testing and flow runner"
   homepage "https://atrahasis.dev"
-  version "1.0.0"
+  version "1.1.0"
   license "Proprietary"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/atrahasisdev/cli-releases/releases/download/v1.0.0/atra-aarch64-apple-darwin.tar.gz"
-      sha256 "1238d022f893df9a607619b14bd45c2dadd978c746af89db58ce1f28f1ca951b"
+      url "https://github.com/atrahasisdev/cli-releases/releases/download/v1.1.0/atra-aarch64-apple-darwin.tar.gz"
+      sha256 "6a23814d5851556df64376e7e7fbd888107b35d1bd77ccb49d6c3638b418aaae"
     else
-      url "https://github.com/atrahasisdev/cli-releases/releases/download/v1.0.0/atra-x86_64-apple-darwin.tar.gz"
-      sha256 "2d677bb292bcedd706120235a1d23949381fe16882f9cd06114144ba9a3b9559"
+      url "https://github.com/atrahasisdev/cli-releases/releases/download/v1.1.0/atra-x86_64-apple-darwin.tar.gz"
+      sha256 "543d28d1b6bd19c70c23c129bfef49b02fef78a310867a0348f43ac5c9e262fe"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/atrahasisdev/cli-releases/releases/download/v1.0.0/atra-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "009cb51892e57e43a8f930e3d1cb971cc69a86752a211787169f77da674d0e32"
+      url "https://github.com/atrahasisdev/cli-releases/releases/download/v1.1.0/atra-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "dc0ef5a8ec352fe666c9ca770089a6d3bbe773f0ccc5d8523a17d3ea3a32529b"
     else
-      url "https://github.com/atrahasisdev/cli-releases/releases/download/v1.0.0/atra-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d191f8d306484b3ae4dca3b0313935b0de8fcf82de52c8622fec6bcacdd7584f"
+      url "https://github.com/atrahasisdev/cli-releases/releases/download/v1.1.0/atra-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e763402a304ab84e6391228292a481a33fa0e7224539f4321684a513a7f371d6"
     end
   end
 
